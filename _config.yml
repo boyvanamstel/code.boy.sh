@@ -24,6 +24,8 @@ github_username: boyvanamstel
 microdotblog_username: boyvanamstel
 google_analytics: UA-7720147-35
 
+permalink: /:title
+
 # Build settings
 markdown: kramdown
 theme: minima
