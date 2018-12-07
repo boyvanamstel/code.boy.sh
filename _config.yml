@@ -18,30 +18,39 @@ title: Coding with Boy
 description: >- # this means to ignore newlines until "baseurl:"
   Solutions to problems I solve while working on my (Mac) apps.
 baseurl: "" # the subpath of your site, e.g. /blog
+permalink: /:title
 url: "https://code.boy.sh" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: boyvanamstel
 github_username: boyvanamstel
 microdotblog_username: boyvanamstel
 google_analytics: UA-7720147-35
 
-permalink: /:title
-
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-assets
+  - octopress-minify-html
+  - jekyll-sitemap
 include:
   - _redirects
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# jekyll-assets
+assets:
+  prefix: "/assets"
+  digest: true
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
+  sources:
+    - _assets/css
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/fonts
+    - _assets/img
+    - _assets/js
+  features:
+    automatic_img_size: false
