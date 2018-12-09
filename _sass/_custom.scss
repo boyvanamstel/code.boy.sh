@@ -1,3 +1,7 @@
+body {
+  display: block;
+}
+
 .site-title {
   line-height: $base-line-height * $base-font-size * 2.25;
 }
@@ -76,4 +80,40 @@
       }
     }
   }
+}
+
+.highlight {
+  pre, code {
+    background: none;
+    border: none;
+    padding: 0;
+
+    table {
+      margin: 0;
+      color: inherit;
+      border: none;
+
+      td {
+        border: none;
+      }
+
+      td:first-child {
+        border-right: #e8e8e8 1px solid;
+      }
+
+      .rouge-gutter {
+        width: 1em;
+      }
+
+      pre {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+div.highlight {
+  border-radius: 3px;
+}
+.highlighter-rouge {
+  background: none;
 }

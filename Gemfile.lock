@@ -144,6 +144,7 @@ DEPENDENCIES
   mini_magick
   minima!
   octopress-minify-html
+  rouge
   tzinfo-data
 
 BUNDLED WITH

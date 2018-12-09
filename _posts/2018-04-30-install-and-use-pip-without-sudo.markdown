@@ -10,8 +10,7 @@ I'm used to installing and running my Ruby gems in user space with the help of [
 
 [This Gist by Matthew](https://gist.github.com/haircut/14705555d58432a5f01f9188006a04ed) guides you through all the steps you need to take. It's quite simple, really.
 
-
-```Bash
+``` bash
 # Uninstall sudo-requiring pip (only if pip is already installed)
 sudo pip uninstall pip
 
@@ -28,4 +27,7 @@ echo 'export PATH="$HOME/Library/Python/2.7/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-Matthew mentions to remember to append `--user` when installing modules; ie. `pip install <package_name> --user`
+Matthew mentions to remember to append `--user` when installing modules:
+``` bash
+$ pip install <package_name> --user
+```
