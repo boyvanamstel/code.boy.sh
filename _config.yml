@@ -23,7 +23,7 @@ url: "https://code.boy.sh" # the base hostname & protocol for your site, e.g. ht
 twitter_username: boyvanamstel
 github_username: boyvanamstel
 microdotblog_username: boyvanamstel
-google_analytics: UA-7720147-35
+google_analytics: #UA-7720147-35
 
 # Build settings
 markdown: kramdown
