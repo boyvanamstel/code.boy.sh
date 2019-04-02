@@ -28,3 +28,5 @@ fields:
 - type: datetime
   name: date
   label: Date
+pages:
+- _posts/my-current-take-on-the-menu-bar-icon-size.md
