@@ -29,6 +29,6 @@ As the icon is square, I can just use a square `NSStatusItem` length. This sets 
 let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.squareLength)
 ```
 
-![A screenshot of the menu bar with the custom icon looking like it should](/assets/blog/menubar-icons-size-square.png)
-
 And there we go. If the icon wasn't square or would look better with its width set manually, I could use `.variableLength` like I did in the previous screenshot and adjust the width in the image.
+
+![A screenshot of the menu bar with the custom icon looking like it should](/assets/blog/menubar-icons-size-square.png)
