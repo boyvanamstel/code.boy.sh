@@ -4,13 +4,12 @@ title: Track where someone downloaded your Mac app
 tags:
 - analytics
 - apps
-- osx
 - programming
-- indie
 - xcode
+- macos
 date: '2016-05-03 11:37:00'
----
 
+---
 Figuring out what works and especially what doesn't is a big part of building products. Whether you're trying to figure out which feature to build or where to spend money on marketing, analytics can help you make those decisions.
 
 If you're building a web platform it's relatively easy to setup Google Analytics (or something similar) to track a user's behavior from the moment they hit your site until they decide to purchase your product. 
