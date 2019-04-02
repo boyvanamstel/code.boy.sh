@@ -13,4 +13,4 @@ As far as I know, there's _still_ no Apple documentation on the `NSStatusBar` ic
 
 The choice is then between setting your image's canvas at 22px and placing the icon where you want it, leaving transparent space at the edges, or using the actual size of the icon.
 
-I tried both, as you can see in the image below.
+I tried both with a , as you can see in the image below.
