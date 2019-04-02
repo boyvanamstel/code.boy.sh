@@ -2,15 +2,22 @@
 label: Default
 hide_body: false
 fields:
-- type: text
+- type: select
   name: layout
-  label: layout
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - post
+  label: Layout
+  default: post
 - type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
 - type: list
   name: tags
   label: tags
-- type: datetime
-  name: date
-  label: date
+  default: []
