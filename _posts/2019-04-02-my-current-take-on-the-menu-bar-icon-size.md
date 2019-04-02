@@ -1,7 +1,10 @@
 ---
 layout: post
 title: My current take on the menu bar icon size
-tags: ''
+tags:
+- xcode
+- macos
+- design
 date: 2019-04-02 11:00:00 +0200
 
 ---
