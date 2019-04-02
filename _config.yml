@@ -63,3 +63,9 @@ assets:
     - _assets/js
   features:
     automatic_img_size: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/avatar.jpg
