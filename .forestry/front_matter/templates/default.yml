@@ -17,7 +17,14 @@ fields:
   label: Title
   config:
     required: true
-- type: list
+- type: select
   name: tags
-  label: tags
-  default: []
+  config:
+    source:
+      type: documents
+      section: jekyll-posts
+  label: Tags
+  default: ''
+- type: datetime
+  name: date
+  label: Date
