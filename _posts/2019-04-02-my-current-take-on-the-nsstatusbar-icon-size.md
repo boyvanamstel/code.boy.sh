@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My current take on the menu bar icon size
+title: My current take on the NSStatusBar icon size
 tags:
 - xcode
 - macos
