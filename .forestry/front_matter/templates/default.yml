@@ -17,14 +17,9 @@ fields:
   label: Title
   config:
     required: true
-- type: select
+- type: tag_list
   name: tags
-  config:
-    source:
-      type: documents
-      section: jekyll-posts
   label: Tags
-  default: ''
 - type: datetime
   name: date
   label: Date
